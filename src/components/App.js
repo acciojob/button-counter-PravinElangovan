@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
   let [count, setCount]= useState(0)
 
-  function counter(e){
+  function counter(){
     setCount(count+1)
   }
   return (
